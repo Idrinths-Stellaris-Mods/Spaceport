@@ -1,0 +1,2074 @@
+namespace = idrinthexpandedspaceport
+
+
+planet_event = {
+    id = idrinthexpandedspaceport.1007
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 7
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_0
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_0
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_0
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_0
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_0
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon1_0 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon1_0 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon1_0 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon1_0 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon1_0 
+                slot = 7
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1008
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 8
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon1_1 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon1_1 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon1_1 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon1_1 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon1_1 
+                slot = 7
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1009
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 9
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon1_2 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon1_2 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon1_2 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon1_2 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon1_2 
+                slot = 7
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1010
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 10
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon1_3 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon1_3 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon1_3 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon1_3 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon1_3 
+                slot = 7
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1011
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 11
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon1_4 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon1_4 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon1_4 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon1_4 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon1_4 
+                slot = 7
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1012
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 12
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon1_5 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon1_5 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon1_5 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon1_5 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon1_5 
+                slot = 7
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1013
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 13
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon1_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon1_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon1_6 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon1_6 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon1_6 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon1_6 
+                slot = 7
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon1_6 
+                slot = 7
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1014
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 14
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_0
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_0
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_0
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_0
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_0
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon2_0 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon2_0 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon2_0 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon2_0 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon2_0 
+                slot = 14
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1015
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 15
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon2_1 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon2_1 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon2_1 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon2_1 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon2_1 
+                slot = 14
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1016
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 16
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon2_2 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon2_2 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon2_2 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon2_2 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon2_2 
+                slot = 14
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1017
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 17
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon2_3 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon2_3 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon2_3 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon2_3 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon2_3 
+                slot = 14
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1018
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 18
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon2_4 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon2_4 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon2_4 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon2_4 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon2_4 
+                slot = 14
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1019
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 19
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon2_5 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon2_5 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon2_5 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon2_5 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon2_5 
+                slot = 14
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1020
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 20
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon2_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon2_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon2_6 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon2_6 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon2_6 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon2_6 
+                slot = 14
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon2_6 
+                slot = 14
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1021
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 21
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_0
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_0
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_0
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_0
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_0
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon3_0 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon3_0 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon3_0 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon3_0 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon3_0 
+                slot = 21
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1022
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 22
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon3_1 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon3_1 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon3_1 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon3_1 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon3_1 
+                slot = 21
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1023
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 23
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon3_2 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon3_2 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon3_2 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon3_2 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon3_2 
+                slot = 21
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1024
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 24
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon3_3 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon3_3 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon3_3 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon3_3 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon3_3 
+                slot = 21
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1025
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 25
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon3_4 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon3_4 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon3_4 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon3_4 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon3_4 
+                slot = 21
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1026
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 26
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon3_5 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon3_5 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon3_5 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon3_5 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon3_5 
+                slot = 21
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1027
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 27
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon3_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon3_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon3_6 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon3_6 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon3_6 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon3_6 
+                slot = 21
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon3_6 
+                slot = 21
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1028
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 28
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_0
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_0
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_0
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_0
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_0
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon4_0 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon4_0 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon4_0 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon4_0 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon4_0 
+                slot = 28
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1029
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 29
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_1
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_1
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon4_1 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon4_1 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon4_1 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon4_1 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon4_1 
+                slot = 28
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1030
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 30
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_2
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_2
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon4_2 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon4_2 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon4_2 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon4_2 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon4_2 
+                slot = 28
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1031
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 31
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_3
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_3
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon4_3 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon4_3 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon4_3 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon4_3 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon4_3 
+                slot = 28
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1032
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 32
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_4
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_4
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon4_4 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon4_4 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon4_4 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon4_4 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon4_4 
+                slot = 28
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1033
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 33
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_5
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_5
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon4_5 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon4_5 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon4_5 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon4_5 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon4_5 
+                slot = 28
+            }
+        }
+    }
+}
+
+planet_event = {
+    id = idrinthexpandedspaceport.1034
+    hide_window = yes
+
+    trigger = {
+        has_spaceport = yes
+        is_spaceport_module_slot_free = 34
+        NOR = {
+
+            has_spaceport_module = idrinthexpandedspaceport_projectile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_laser_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_missile_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_swarm_weapon4_6
+            has_spaceport_module = idrinthexpandedspaceport_fallen_empire_weapon4_6
+       }
+    }
+
+    immediate = {
+        if = {
+            limit = { has_spaceport_module = projectile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_projectile_weapon4_6 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = laser_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_laser_weapon4_6 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = missile_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_missile_weapon4_6 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = swarm_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_swarm_weapon4_6 
+                slot = 28
+            }
+        }
+        if = {
+            limit = { has_spaceport_module = fallen_empire_weapon }
+            SET_SPACEPORT_MODULE = {
+                module = idrinthexpandedspaceport_fallen_empire_weapon4_6 
+                slot = 28
+            }
+        }
+    }
+}

@@ -1,0 +1,400 @@
+#################
+#### LEVEL 7 ####
+#################
+
+
+#################
+#### LEVEL 8 ####
+#################
+
+idrinthexpandedspaceport_pilot_training = {
+	icon = "GFX_spaceport_module_corvette_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_8 }
+	spaceport_level = 8
+	
+	cost = {
+		minerals = 200
+	}
+	
+	station_modifier = {
+		ship_tracking_add = 5
+                ship_accuracy_add = 5
+	}
+	
+	ship_modifier = {
+		ship_evasion_add = 1
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+#################
+#### LEVEL 9 ####
+#################
+
+idrinthexpandedspaceport_advanced_armor = {
+	icon = "GFX_spaceport_module_corvette_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_9 }
+	spaceport_level = 9
+	
+	cost = {
+		minerals = 200
+	}
+	
+	station_modifier = {
+		ship_armor_add = 5
+                ship_hitpoints_add = 250
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+#################
+#### LEVEL 10 ####
+#################
+
+idrinthexpandedspaceport_corvette_assembly_yards = {
+	icon = "GFX_spaceport_module_corvette_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_10 }
+	spaceport_level = 10
+	
+	cost = {
+		minerals = 200
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	modifier = {
+		shipsize_corvette_construction_speed_mult = 0.15
+		shipsize_corvette_build_cost_mult = -0.1
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+#################
+#### LEVEL 11 ####
+#################
+
+idrinthexpandedspaceport_recycling = {
+	icon = "GFX_spaceport_module_corvette_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_11 }
+	spaceport_level = 11
+	
+	cost = {
+		minerals = 100
+	}
+	
+	required_resources = {
+		energy = -1
+	}
+	
+	planet_modifier = {
+		pop_happiness = 0.01
+                tile_resource_minerals_mult = 0.1
+                tile_resource_energy_mult = 0.1
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+#################
+#### LEVEL 12 ####
+#################
+
+idrinthexpandedspaceport_destroyer_assembly_yards = {
+	icon = "GFX_spaceport_module_destroyer_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_12 }
+	spaceport_level = 12
+	
+	cost = {
+		minerals = 600
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	modifier = {
+		shipsize_destroyer_construction_speed_mult = 0.15
+		shipsize_destroyer_build_cost_mult = -0.1
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+#################
+#### LEVEL 14 ####
+#################
+
+
+
+#################
+#### LEVEL 15 ####
+#################
+
+idrinthexpandedspaceport_shield_generator = {
+	icon = "GFX_spaceport_module_destroyer_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_15 }
+	spaceport_level = 14
+	
+	cost = {
+		minerals = 600
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+
+	station_modifier = {
+		ship_shield_hp_add = 1000
+                ship_shield_regen_add = 0.1
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+#################
+#### LEVEL 16 ####
+#################
+
+idrinthexpandedspaceport_crew_quarters = {
+	icon = "GFX_spaceport_module_crew_quarters"
+	section = "HANGARBAY_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_16 }
+	spaceport_level = 16
+	
+	cost = {
+		minerals = 200
+	}
+	
+	orbit_modifier = {
+		ship_upkeep_mult = -0.1
+	}
+	station_modifier = {
+		ship_fire_rate_mult = 0.15
+		ship_weapon_damage = 0.15
+	}	
+	required_resources = {
+		energy = 1
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+#################
+#### LEVEL 18 ####
+#################
+
+idrinthexpandedspaceport_cruiser_assembly_yards = {
+	icon = "GFX_spaceport_module_cruiser_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_18 }
+	spaceport_level = 18
+	
+	cost = {
+		minerals = 800
+	}
+	
+	required_resources = {
+		energy = 3
+	}
+	
+	modifier = {
+		shipsize_cruiser_construction_speed_mult = 0.15
+		shipsize_cruiser_build_cost_mult = -0.1
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+#################
+#### LEVEL 20 ####
+#################
+
+idrinthexpandedspaceport_trade_center = {
+	icon = "GFX_spaceport_module_crew_quarters"
+	section = "HANGARBAY_SPACEPORT_SECTION"
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_20 }
+	construction_days = 180
+	spaceport_level = 8
+	
+	cost = {
+		minerals = 200
+	}
+	
+	required_resources = {
+		energy = -5
+                minerals -5
+	}
+	
+	ai_weight = {
+		factor = 5
+	}
+}
+#################
+#### LEVEL 21 ####
+#################
+
+
+#################
+#### LEVEL 22 ####
+#################
+
+idrinthexpandedspaceport_battleship_assembly_yards = {
+	icon = "GFX_spaceport_module_battleship_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_22 }
+	spaceport_level = 22
+	
+	cost = {
+		minerals = 1000
+	}	
+	
+	required_resources = {
+		energy = 4
+	}
+	
+	modifier = {
+		shipsize_battleship_construction_speed_mult = 0.15
+		shipsize_battleship_build_cost_mult = -0.1
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+#################
+#### LEVEL 24 ####
+#################
+
+
+idrinthexpandedspaceport_synchronized_defenses = {
+	icon = "GFX_spaceport_synchronized_defenses"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180	
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_24 }
+	spaceport_level = 24
+	
+	cost = {
+		minerals = 300
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	station_modifier = {
+		ship_fire_rate_mult = 0.65
+		ship_weapon_damage = 0.25
+		ship_weapon_range_mult = 0.25
+	}
+}
+
+#################
+#### LEVEL 26 ####
+#################
+
+idrinthexpandedspaceport_observatory = {
+	icon = "GFX_spaceport_module_observatory"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { tech_idrinthexpandedspaceport_spaceport_26 }
+	spaceport_level = 26
+	
+	cost = {
+		minerals = 100
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	planet_modifier = {
+		planet_sensor_range_mult = 0.5	
+		tile_resource_physics_research_mult = 0.25
+		tile_resource_society_research_mult = 0.25
+		tile_resource_engineering_research_mult = 0.25
+		pop_happiness = 0.01
+	}
+}

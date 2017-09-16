@@ -1,0 +1,115 @@
+ap_idrinthexpandedspaceport_engineered_evolution = {
+    modifier = {
+        ship_auto_repair_add = 0.05
+    }
+
+    potential = {
+        has_ascension_perk = ap_engineered_evolution
+    }
+
+    ai_weight = {
+        factor = 2
+    }
+}
+
+ap_idrinthexpandedspaceport_the_flesh_is_weak = {
+    modifier = {
+        shipclass_orbital_station_hit_points_mult = 0.5
+        ship_auto_repair_add = 0.025
+    }
+
+    potential = {
+        has_ascension_perk = ap_the_flesh_is_weak
+    }
+
+    ai_weight = {
+        factor = 2
+    }
+}
+
+ap_idrinthexpandedspaceport_mind_over_matter = {
+    modifier = {
+        ship_shield_hp_mult = 0.5
+        shipclass_orbital_station_damage_mult = 0.5
+    }
+
+    potential = {
+            has_ascension_perk = ap_mind_over_matter
+    }
+
+    ai_weight = {
+        factor = 2
+    }
+}
+
+ap_idrinthexpandedspaceport_galactic_force_projection = {
+    modifier = {
+        navy_size_add = 50
+        shipclass_orbital_station_damage_mult = 0.5
+        spaceport_ship_build_time_mult = -0.1
+        spaceport_ship_build_cost_mult = -0.1
+    }
+
+    potential = {
+        has_ascension_perk = ap_galactic_force_projection
+    }
+
+    ai_weight = {
+        factor = 5
+        modifier = {
+            factor = 1
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+    }
+}
+
+ap_idrinthexpandedspaceport_master_builders = {
+    modifier = {
+        spaceport_ship_build_time_mult = -0.1
+        spaceport_ship_build_cost_mult = -0.1
+        shipclass_orbital_station_hit_points_mult = 1
+    }
+
+    potential = {
+        has_ascension_perk = ap_master_builders
+    }
+
+    ai_weight = {
+        factor = 5
+        modifier = {
+            factor = 1
+            has_ethic = ethic_pacifist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_pacifist
+        }
+    }
+}
+
+ap_idrinthexpandedspaceport_technological_ascendancy = {
+    modifier = {
+        all_technology_research_speed = 0.05
+                shipclass_orbital_station_hit_points_mult = 0.5
+    }
+
+    potential = {
+            has_ascension_perk = ap_technological_ascendancy
+    }
+
+    ai_weight = {
+        factor = 5
+        modifier = {
+            factor = 1
+            has_ethic = ethic_materialist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_materialist
+        }
+    }
+}

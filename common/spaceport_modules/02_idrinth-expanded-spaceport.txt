@@ -1,0 +1,93 @@
+idrinthexpandedspaceport_armor = {
+	icon = "GFX_spaceport_module_corvette_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 270
+	prerequisites = { tech_ship_armor_1 }
+	spaceport_level = 1
+	
+	cost = {
+		minerals = 100
+	}
+	
+	station_modifier = {
+		ship_armor_add = 2
+                ship_hitpoints_add = 200
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+	}
+}
+
+idrinthexpandedspaceport_simple_shield_generator = {
+	icon = "GFX_spaceport_module_destroyer_assembly_yard"
+	section = "ASSEMBLYYARD_SPACEPORT_SECTION"
+	construction_days = 360
+	prerequisites = { tech_shields_1 }
+	spaceport_level = 1
+	
+	cost = {
+		minerals = 100
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+
+	station_modifier = {
+		ship_shield_hp_add = 100
+                ship_shield_regen_add = 0.1
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 0
+			from = { sector_controlled = yes }
+		}
+		modifier = {
+			factor = 0
+			from = { NOT = { has_spaceport_module = solar_panel_network } }
+		}
+	}
+}
+
+idrinthexpandedspaceport_market = {
+	icon = "GFX_spaceport_module_crew_quarters"
+	section = "HANGARBAY_SPACEPORT_SECTION"
+	prerequisites = { tech_colonization_2 }
+	construction_days = 180
+	spaceport_level = 1
+	
+	cost = {
+		minerals = 100
+	}
+	
+	required_resources = {
+		energy = -2
+                minerals -1
+	}
+	
+	ai_weight = {
+		factor = 5
+	}
+}
+
+idrinthexpandedspaceport_tourist_center = {
+	icon = "GFX_spaceport_module_observatory"
+	section = "SCIENCE_SPACEPORT_SECTION"
+	construction_days = 180
+	prerequisites = { tech_colonization_2 }
+	spaceport_level = 1
+	
+	cost = {
+		minerals = 100
+	}
+	
+	planet_modifier = {
+		tile_resource_society_research_mult = 0.05
+		pop_happiness = 0.01
+	}
+}

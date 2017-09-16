@@ -1,0 +1,1117 @@
+# ##################
+# Spaceport slots
+# ##################
+
+tech_idrinthexpandedspaceport_spaceport_7 = {
+    cost = 7000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = { tech_spaceport_6 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_7 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_7
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_8 = {
+    cost = 8000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = { tech_idrinthexpandedspaceport_spaceport_7 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_8 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_8
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_9 = {
+    cost = 9000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_8 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_9 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_9
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_10 = {
+    cost = 10000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_9 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_10 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_10
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_11 = {
+    cost = 11000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_10 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_11 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_11
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_12 = {
+    cost = 12000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_11 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_12 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_12
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_13 = {
+    cost = 13000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_12 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_13 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_13
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_14 = {
+    cost = 14000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_13 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_14 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_14
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_15 = {
+    cost = 15000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_14 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_15 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_15
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_16 = {
+    cost = 16000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_15 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_16 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_16
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_17 = {
+    cost = 17000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_16 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_7 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_17
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_18 = {
+    cost = 18000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_17 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_18 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_18
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_19 = {
+    cost = 19000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_18 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_19 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_19
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_20 = {
+    cost = 20000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_19 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_20 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_20
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_21 = {
+    cost = 21000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_20 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_21 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_21
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_22 = {
+    cost = 22000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_21 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_22 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_22
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_23 = {
+    cost = 23000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_22 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_23 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_23
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_24 = {
+    cost = 2400
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_23 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_24 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_24
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+tech_idrinthexpandedspaceport_spaceport_25 = {
+    cost = 25000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_24 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_25 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_25
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+
+tech_idrinthexpandedspaceport_spaceport_26 = {
+    cost = 26000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_25 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_26 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_26
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+
+
+tech_idrinthexpandedspaceport_spaceport_27 = {
+    cost = 27000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_26 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_27 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_27
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+tech_idrinthexpandedspaceport_spaceport_28 = {
+    cost = 28000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_27 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_28 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_28
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+tech_idrinthexpandedspaceport_spaceport_29 = {
+    cost = 29000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_28 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_29 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_29
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+tech_idrinthexpandedspaceport_spaceport_30 = {
+    cost = 30000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_29 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_30 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_30
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+tech_idrinthexpandedspaceport_spaceport_31 = {
+    cost = 31000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_30 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_27 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_31
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+tech_idrinthexpandedspaceport_spaceport_32 = {
+    cost = 32000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_31 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_32 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_32
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+tech_idrinthexpandedspaceport_spaceport_33 = {
+    cost = 33000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_32 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_33 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_33
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}
+
+tech_idrinthexpandedspaceport_spaceport_34 = {
+    cost = 43000
+    area = engineering
+    tier = 4
+    category = { voidcraft }
+    prerequisites = {  tech_idrinthexpandedspaceport_spaceport_33 }
+    weight = 25
+    modifier = {
+        max_minerals = 1000
+                shipclass_orbital_station_hit_points_mult = 0.1
+    }
+    feature_flags = { spaceport_level_34 }
+    weight_modifier = {
+        modifier = {
+            factor = 10
+            any_neighbor_country = {
+                has_technology = tech_idrinthexpandedspaceport_spaceport_34
+            }
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 90
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_voidcraft"
+            }
+        }
+    }
+}

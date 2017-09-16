@@ -1,0 +1,4313 @@
+
+idrinthexpandedspaceport_projectile_weapon1_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.7
+        ship_fire_rate_mult =  2.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0016
+        ship_shield_hp_add = 80
+        ship_shield_regen_add = 0.08
+        ship_armor_add = 110
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon1_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.7
+        ship_fire_rate_mult =  2.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0016
+        ship_shield_hp_add = 80
+        ship_shield_regen_add = 0.08
+        ship_armor_add = 110
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon1_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.7
+        ship_fire_rate_mult =  2.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0016
+        ship_shield_hp_add = 80
+        ship_shield_regen_add = 0.08
+        ship_armor_add = 110
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon1_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.7
+        ship_fire_rate_mult =  2.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0016
+        ship_shield_hp_add = 80
+        ship_shield_regen_add = 0.08
+        ship_armor_add = 110
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon1_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.7
+        ship_fire_rate_mult =  2.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0016
+        ship_shield_hp_add = 80
+        ship_shield_regen_add = 0.08
+        ship_armor_add = 110
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+idrinthexpandedspaceport_projectile_weapon1_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.18
+        ship_tracking_add = 17
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.8
+        ship_fire_rate_mult =  2.08
+
+        ship_hitpoints_add = 4000
+        ship_auto_repair_add = 0.0018
+        ship_shield_hp_add = 90
+        ship_shield_regen_add = 0.09
+        ship_armor_add = 115
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.6
+        spaceport_ship_build_cost_mult = -0.04
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon1_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.18
+        ship_tracking_add = 17
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.8
+        ship_fire_rate_mult =  2.08
+
+        ship_hitpoints_add = 4000
+        ship_auto_repair_add = 0.0018
+        ship_shield_hp_add = 90
+        ship_shield_regen_add = 0.09
+        ship_armor_add = 115
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.6
+        spaceport_ship_build_cost_mult = -0.04
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon1_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.18
+        ship_tracking_add = 17
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.8
+        ship_fire_rate_mult =  2.08
+
+        ship_hitpoints_add = 4000
+        ship_auto_repair_add = 0.0018
+        ship_shield_hp_add = 90
+        ship_shield_regen_add = 0.09
+        ship_armor_add = 115
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.6
+        spaceport_ship_build_cost_mult = -0.04
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon1_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.18
+        ship_tracking_add = 17
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.8
+        ship_fire_rate_mult =  2.08
+
+        ship_hitpoints_add = 4000
+        ship_auto_repair_add = 0.0018
+        ship_shield_hp_add = 90
+        ship_shield_regen_add = 0.09
+        ship_armor_add = 115
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.6
+        spaceport_ship_build_cost_mult = -0.04
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon1_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.18
+        ship_tracking_add = 17
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.8
+        ship_fire_rate_mult =  2.08
+
+        ship_hitpoints_add = 4000
+        ship_auto_repair_add = 0.0018
+        ship_shield_hp_add = 90
+        ship_shield_regen_add = 0.09
+        ship_armor_add = 115
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.6
+        spaceport_ship_build_cost_mult = -0.04
+    }
+}
+idrinthexpandedspaceport_projectile_weapon1_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.19
+        ship_tracking_add = 19
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.9
+        ship_fire_rate_mult =  2.09
+
+        ship_hitpoints_add = 4500
+        ship_auto_repair_add = 0.002
+        ship_shield_hp_add = 100
+        ship_shield_regen_add = 0.1
+        ship_armor_add = 120
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.8
+        spaceport_ship_build_cost_mult = -0.045
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon1_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.19
+        ship_tracking_add = 19
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.9
+        ship_fire_rate_mult =  2.09
+
+        ship_hitpoints_add = 4500
+        ship_auto_repair_add = 0.002
+        ship_shield_hp_add = 100
+        ship_shield_regen_add = 0.1
+        ship_armor_add = 120
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.8
+        spaceport_ship_build_cost_mult = -0.045
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon1_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.19
+        ship_tracking_add = 19
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.9
+        ship_fire_rate_mult =  2.09
+
+        ship_hitpoints_add = 4500
+        ship_auto_repair_add = 0.002
+        ship_shield_hp_add = 100
+        ship_shield_regen_add = 0.1
+        ship_armor_add = 120
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.8
+        spaceport_ship_build_cost_mult = -0.045
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon1_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.19
+        ship_tracking_add = 19
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.9
+        ship_fire_rate_mult =  2.09
+
+        ship_hitpoints_add = 4500
+        ship_auto_repair_add = 0.002
+        ship_shield_hp_add = 100
+        ship_shield_regen_add = 0.1
+        ship_armor_add = 120
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.8
+        spaceport_ship_build_cost_mult = -0.045
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon1_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.19
+        ship_tracking_add = 19
+        ship_accuracy_add = 1
+        ship_weapon_damage = 1.9
+        ship_fire_rate_mult =  2.09
+
+        ship_hitpoints_add = 4500
+        ship_auto_repair_add = 0.002
+        ship_shield_hp_add = 100
+        ship_shield_regen_add = 0.1
+        ship_armor_add = 120
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.8
+        spaceport_ship_build_cost_mult = -0.045
+    }
+}
+idrinthexpandedspaceport_projectile_weapon1_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.2
+        ship_tracking_add = 21
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2
+        ship_fire_rate_mult =  2.1
+
+        ship_hitpoints_add = 5000
+        ship_auto_repair_add = 0.0022
+        ship_shield_hp_add = 110
+        ship_shield_regen_add = 0.11
+        ship_armor_add = 125
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2
+        spaceport_ship_build_cost_mult = -0.05
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon1_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.2
+        ship_tracking_add = 21
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2
+        ship_fire_rate_mult =  2.1
+
+        ship_hitpoints_add = 5000
+        ship_auto_repair_add = 0.0022
+        ship_shield_hp_add = 110
+        ship_shield_regen_add = 0.11
+        ship_armor_add = 125
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2
+        spaceport_ship_build_cost_mult = -0.05
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon1_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.2
+        ship_tracking_add = 21
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2
+        ship_fire_rate_mult =  2.1
+
+        ship_hitpoints_add = 5000
+        ship_auto_repair_add = 0.0022
+        ship_shield_hp_add = 110
+        ship_shield_regen_add = 0.11
+        ship_armor_add = 125
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2
+        spaceport_ship_build_cost_mult = -0.05
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon1_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.2
+        ship_tracking_add = 21
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2
+        ship_fire_rate_mult =  2.1
+
+        ship_hitpoints_add = 5000
+        ship_auto_repair_add = 0.0022
+        ship_shield_hp_add = 110
+        ship_shield_regen_add = 0.11
+        ship_armor_add = 125
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2
+        spaceport_ship_build_cost_mult = -0.05
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon1_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.2
+        ship_tracking_add = 21
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2
+        ship_fire_rate_mult =  2.1
+
+        ship_hitpoints_add = 5000
+        ship_auto_repair_add = 0.0022
+        ship_shield_hp_add = 110
+        ship_shield_regen_add = 0.11
+        ship_armor_add = 125
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2
+        spaceport_ship_build_cost_mult = -0.05
+    }
+}
+idrinthexpandedspaceport_projectile_weapon1_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.21
+        ship_tracking_add = 23
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.1
+        ship_fire_rate_mult =  2.11
+
+        ship_hitpoints_add = 5500
+        ship_auto_repair_add = 0.0024
+        ship_shield_hp_add = 120
+        ship_shield_regen_add = 0.12
+        ship_armor_add = 130
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.2
+        spaceport_ship_build_cost_mult = -0.055
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon1_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.21
+        ship_tracking_add = 23
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.1
+        ship_fire_rate_mult =  2.11
+
+        ship_hitpoints_add = 5500
+        ship_auto_repair_add = 0.0024
+        ship_shield_hp_add = 120
+        ship_shield_regen_add = 0.12
+        ship_armor_add = 130
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.2
+        spaceport_ship_build_cost_mult = -0.055
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon1_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.21
+        ship_tracking_add = 23
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.1
+        ship_fire_rate_mult =  2.11
+
+        ship_hitpoints_add = 5500
+        ship_auto_repair_add = 0.0024
+        ship_shield_hp_add = 120
+        ship_shield_regen_add = 0.12
+        ship_armor_add = 130
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.2
+        spaceport_ship_build_cost_mult = -0.055
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon1_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.21
+        ship_tracking_add = 23
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.1
+        ship_fire_rate_mult =  2.11
+
+        ship_hitpoints_add = 5500
+        ship_auto_repair_add = 0.0024
+        ship_shield_hp_add = 120
+        ship_shield_regen_add = 0.12
+        ship_armor_add = 130
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.2
+        spaceport_ship_build_cost_mult = -0.055
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon1_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.21
+        ship_tracking_add = 23
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.1
+        ship_fire_rate_mult =  2.11
+
+        ship_hitpoints_add = 5500
+        ship_auto_repair_add = 0.0024
+        ship_shield_hp_add = 120
+        ship_shield_regen_add = 0.12
+        ship_armor_add = 130
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.2
+        spaceport_ship_build_cost_mult = -0.055
+    }
+}
+idrinthexpandedspaceport_projectile_weapon1_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.22
+        ship_tracking_add = 25
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.2
+        ship_fire_rate_mult =  2.12
+
+        ship_hitpoints_add = 6000
+        ship_auto_repair_add = 0.0026
+        ship_shield_hp_add = 130
+        ship_shield_regen_add = 0.13
+        ship_armor_add = 135
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.4
+        spaceport_ship_build_cost_mult = -0.06
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon1_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.22
+        ship_tracking_add = 25
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.2
+        ship_fire_rate_mult =  2.12
+
+        ship_hitpoints_add = 6000
+        ship_auto_repair_add = 0.0026
+        ship_shield_hp_add = 130
+        ship_shield_regen_add = 0.13
+        ship_armor_add = 135
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.4
+        spaceport_ship_build_cost_mult = -0.06
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon1_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.22
+        ship_tracking_add = 25
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.2
+        ship_fire_rate_mult =  2.12
+
+        ship_hitpoints_add = 6000
+        ship_auto_repair_add = 0.0026
+        ship_shield_hp_add = 130
+        ship_shield_regen_add = 0.13
+        ship_armor_add = 135
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.4
+        spaceport_ship_build_cost_mult = -0.06
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon1_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.22
+        ship_tracking_add = 25
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.2
+        ship_fire_rate_mult =  2.12
+
+        ship_hitpoints_add = 6000
+        ship_auto_repair_add = 0.0026
+        ship_shield_hp_add = 130
+        ship_shield_regen_add = 0.13
+        ship_armor_add = 135
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.4
+        spaceport_ship_build_cost_mult = -0.06
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon1_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.22
+        ship_tracking_add = 25
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.2
+        ship_fire_rate_mult =  2.12
+
+        ship_hitpoints_add = 6000
+        ship_auto_repair_add = 0.0026
+        ship_shield_hp_add = 130
+        ship_shield_regen_add = 0.13
+        ship_armor_add = 135
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.4
+        spaceport_ship_build_cost_mult = -0.06
+    }
+}
+idrinthexpandedspaceport_projectile_weapon1_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.23
+        ship_tracking_add = 27
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.3
+        ship_fire_rate_mult =  2.13
+
+        ship_hitpoints_add = 6500
+        ship_auto_repair_add = 0.0028
+        ship_shield_hp_add = 140
+        ship_shield_regen_add = 0.14
+        ship_armor_add = 140
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.6
+        spaceport_ship_build_cost_mult = -0.065
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon1_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.23
+        ship_tracking_add = 27
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.3
+        ship_fire_rate_mult =  2.13
+
+        ship_hitpoints_add = 6500
+        ship_auto_repair_add = 0.0028
+        ship_shield_hp_add = 140
+        ship_shield_regen_add = 0.14
+        ship_armor_add = 140
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.6
+        spaceport_ship_build_cost_mult = -0.065
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon1_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.23
+        ship_tracking_add = 27
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.3
+        ship_fire_rate_mult =  2.13
+
+        ship_hitpoints_add = 6500
+        ship_auto_repair_add = 0.0028
+        ship_shield_hp_add = 140
+        ship_shield_regen_add = 0.14
+        ship_armor_add = 140
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.6
+        spaceport_ship_build_cost_mult = -0.065
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon1_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.23
+        ship_tracking_add = 27
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.3
+        ship_fire_rate_mult =  2.13
+
+        ship_hitpoints_add = 6500
+        ship_auto_repair_add = 0.0028
+        ship_shield_hp_add = 140
+        ship_shield_regen_add = 0.14
+        ship_armor_add = 140
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.6
+        spaceport_ship_build_cost_mult = -0.065
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon1_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.23
+        ship_tracking_add = 27
+        ship_accuracy_add = 1
+        ship_weapon_damage = 2.3
+        ship_fire_rate_mult =  2.13
+
+        ship_hitpoints_add = 6500
+        ship_auto_repair_add = 0.0028
+        ship_shield_hp_add = 140
+        ship_shield_regen_add = 0.14
+        ship_armor_add = 140
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 2.6
+        spaceport_ship_build_cost_mult = -0.065
+    }
+}
+idrinthexpandedspaceport_projectile_weapon2_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon2_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon2_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon2_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon2_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+idrinthexpandedspaceport_projectile_weapon2_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon2_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon2_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon2_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon2_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+idrinthexpandedspaceport_projectile_weapon2_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon2_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon2_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon2_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon2_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+idrinthexpandedspaceport_projectile_weapon2_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon2_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon2_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon2_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon2_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+idrinthexpandedspaceport_projectile_weapon2_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon2_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon2_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon2_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon2_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+idrinthexpandedspaceport_projectile_weapon2_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon2_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon2_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon2_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon2_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+idrinthexpandedspaceport_projectile_weapon2_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon2_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon2_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon2_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon2_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+idrinthexpandedspaceport_projectile_weapon3_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon3_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon3_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon3_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon3_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+idrinthexpandedspaceport_projectile_weapon3_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon3_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon3_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon3_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon3_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+idrinthexpandedspaceport_projectile_weapon3_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon3_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon3_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon3_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon3_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+idrinthexpandedspaceport_projectile_weapon3_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon3_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon3_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon3_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon3_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+idrinthexpandedspaceport_projectile_weapon3_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon3_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon3_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon3_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon3_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+idrinthexpandedspaceport_projectile_weapon3_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon3_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon3_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon3_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon3_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+idrinthexpandedspaceport_projectile_weapon3_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon3_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon3_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon3_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon3_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+idrinthexpandedspaceport_projectile_weapon4_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon4_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon4_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon4_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon4_0 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.11
+        ship_tracking_add = 3
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.1
+        ship_fire_rate_mult =  0.01
+
+        ship_hitpoints_add = 500
+        ship_auto_repair_add = 0.0002
+        ship_shield_hp_add = 10
+        ship_shield_regen_add = 0.01
+        ship_armor_add = 5
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.2
+        spaceport_ship_build_cost_mult = -0.005
+    }
+}
+idrinthexpandedspaceport_projectile_weapon4_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon4_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon4_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon4_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon4_1 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.12
+        ship_tracking_add = 5
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.2
+        ship_fire_rate_mult =  0.02
+
+        ship_hitpoints_add = 1000
+        ship_auto_repair_add = 0.0004
+        ship_shield_hp_add = 20
+        ship_shield_regen_add = 0.02
+        ship_armor_add = 10
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.4
+        spaceport_ship_build_cost_mult = -0.01
+    }
+}
+idrinthexpandedspaceport_projectile_weapon4_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon4_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon4_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon4_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon4_2 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.13
+        ship_tracking_add = 7
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.3
+        ship_fire_rate_mult =  0.03
+
+        ship_hitpoints_add = 1500
+        ship_auto_repair_add = 0.0006
+        ship_shield_hp_add = 30
+        ship_shield_regen_add = 0.03
+        ship_armor_add = 15
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.6
+        spaceport_ship_build_cost_mult = -0.015
+    }
+}
+idrinthexpandedspaceport_projectile_weapon4_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon4_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon4_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon4_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon4_3 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.14
+        ship_tracking_add = 9
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.4
+        ship_fire_rate_mult =  0.04
+
+        ship_hitpoints_add = 2000
+        ship_auto_repair_add = 0.0008
+        ship_shield_hp_add = 40
+        ship_shield_regen_add = 0.04
+        ship_armor_add = 20
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 0.8
+        spaceport_ship_build_cost_mult = -0.02
+    }
+}
+idrinthexpandedspaceport_projectile_weapon4_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon4_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon4_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon4_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon4_4 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.15
+        ship_tracking_add = 11
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.5
+        ship_fire_rate_mult =  0.05
+
+        ship_hitpoints_add = 2500
+        ship_auto_repair_add = 0.001
+        ship_shield_hp_add = 50
+        ship_shield_regen_add = 0.05
+        ship_armor_add = 25
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1
+        spaceport_ship_build_cost_mult = -0.025
+    }
+}
+idrinthexpandedspaceport_projectile_weapon4_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon4_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon4_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon4_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon4_5 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.16
+        ship_tracking_add = 13
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.6
+        ship_fire_rate_mult =  0.06
+
+        ship_hitpoints_add = 3000
+        ship_auto_repair_add = 0.0012
+        ship_shield_hp_add = 60
+        ship_shield_regen_add = 0.06
+        ship_armor_add = 30
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.2
+        spaceport_ship_build_cost_mult = -0.03
+    }
+}
+idrinthexpandedspaceport_projectile_weapon4_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 1
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MASS_DRIVER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_laser_weapon4_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 2
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_LASER"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_missile_weapon4_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_swarm_weapon4_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "SPACEPORT_SCOURGE_MISSILE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}
+
+idrinthexpandedspaceport_fallen_empire_weapon4_6 = {
+    icon = "GFX_spaceport_modules"
+    icon_frame = 3
+    initial = no
+    replaceable = no
+    section = "CORE_SPACEPORT_SECTION"
+    component_set = "FALLEN_EMPIRE_SPACEPORT_LANCE"
+    prerequisites = { tech_idrinthexpandedspaceport_defense_blocker }
+    spaceport_level = 1
+    required_resources = {
+        energy = 1
+    }
+    station_modifier = {
+        ship_weapon_range_mult = 0.17
+        ship_tracking_add = 15
+        ship_accuracy_add = 1
+        ship_weapon_damage = 0.7
+        ship_fire_rate_mult =  0.07
+
+        ship_hitpoints_add = 3500
+        ship_auto_repair_add = 0.0014
+        ship_shield_hp_add = 70
+        ship_shield_regen_add = 0.07
+        ship_armor_add = 35
+    }
+    modifier = {
+        spaceport_ship_build_speed_mult = 1.4
+        spaceport_ship_build_cost_mult = -0.035
+    }
+}

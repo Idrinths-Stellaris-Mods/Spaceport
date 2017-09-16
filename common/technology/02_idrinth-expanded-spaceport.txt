@@ -1,0 +1,7 @@
+tech_idrinthexpandedspaceport_defense_blocker = {
+    cost = 0
+    area = engineering
+    tier = 0
+    category = { voidcraft }
+    weight = 0
+}
